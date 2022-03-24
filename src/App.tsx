@@ -69,7 +69,7 @@ function App() {
       h1p2Ref.current.style.letterSpacing = `${-value * 0.001 + 1}rem`
       h1p2Ref.current.style.wordSpacing = `${- value * 0.01 + 8}rem`
 
-      // card2Ref.current.style.wordSpacing = `${- value * 0.01 + 8}rem`
+      // card2Ref.current.style.opacity = 1;
       // card3Ref.current.style.wordSpacing = `${- value * 0.01 + 8}rem`
       // card4Ref.current.style.wordSpacing = `${- value * 0.01 + 8}rem`
       // h1p2Ref.current.style.fontWeight = `${- value * 0.001 + 2}rem`

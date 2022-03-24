@@ -191,15 +191,15 @@ overflow: hidden;
     &.outAnimation{
       animation: card2 .2s forwards;
       transform:  translateY(0rem);
-          opacity: 1;
+      opacity: 1;
       @keyframes card2 {
         from{
-          transform:  translateY(0rem);
-          opacity: 1;
-        }
-        to{
           transform:  translateY(7rem);
           opacity: 0;
+        }
+        to{
+          transform:  translateY(0);
+          opacity: 1;
         }
       }
     }

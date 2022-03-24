@@ -36,7 +36,7 @@ overflow: hidden;
   }
   h1{
     position: absolute;
-    bottom: 18rem;
+    bottom: 21vh;
     width: 100%;
     font-size: 15rem;
     font-style: italic;
@@ -110,7 +110,7 @@ overflow: hidden;
   z-index: 100;
 
   position: absolute;
-  top: calc(50% - 5rem);
+  top: 30vh;
   left: 50%;
   transform: translate(-50%, -50%);
   border: none;
@@ -253,8 +253,8 @@ overflow: hidden;
   }
   &__txt{
     height: 9.4rem;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(20px);
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(80px);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -273,7 +273,7 @@ overflow: hidden;
   }
   &__card:hover &__bg::before{
     background-position-x: 0px;
-    background-position-y: -15rem;
+    background-position-y: -13rem;
     transform: scale(1);
   }
    &__card:hover &__bg--2::before{

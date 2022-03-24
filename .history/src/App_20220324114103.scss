@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.banner{
+  background: linear-gradient(181.12deg, #6D4869 -4.47%, #906074 5.09%, #D58480 18.15%, #ECA58B 34.03%, #F8C995 69.69%);
+  height: 100vh;
+  position: relative;
+
+  h3{
+    position: absolute;
+    top: 18rem;
+    width: 100%;
+    font-size: 5rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    // left: 50%;
+    // transform: translateX(-50%);
+  }
+  h1{
+    position: absolute;
+    bottom: 20rem;
+    width: 100%;
+    font-size: 15rem;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+  }
+  img{
+    position: absolute;
+    &.bg_1{
+      top: 5.4rem;
+      left: 40rem;
+    }
+    &.bg_2{
+      left: 0;
+      top: 15rem;
+    }
+    &.bg_3{
+      right: 0;
+      top: 12rem;
+    }
+    &.bg_4{
+      left: 50%;
+      top: 10rem;
+      transform: translateX(-50%);
+      // top: 28.6rem;
+      width: 50rem;
+    }
+    &.bg_5{
+      right: 22rem;
+      top: 30rem;
+    }
+    &.bg_6{
+      right: 0;
+      left: 0;
+      top: 30rem;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.banner{
+  background: linear-gradient(181.12deg, #6D4869 -4.47%, #906074 5.09%, #D58480 18.15%, #ECA58B 34.03%, #F8C995 69.69%);
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+  h3{
+    position: absolute;
+    top: 18rem;
+    width: 100%;
+    font-size: 5rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    // left: 50%;
+    // transform: translateX(-50%);
+  }
+  h1{
+    position: absolute;
+    bottom: 14rem;
+    width: 100%;
+    font-size: 15rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, .7);
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 0;
+  }
+  img{
+    position: absolute;
+    z-index: 0;
+    &.bg_1{
+      top: 5.4rem;
+      left: 40rem;
+    }
+    &.bg_2{
+      left: 0;
+      top: 15rem;
+    }
+    &.bg_3{
+      right: 0;
+      top: 12rem;
+    }
+    &.bg_4{
+      left: 50%;
+      top: 8rem;
+      transform: translateX(-50%);
+      // top: 28.6rem;
+      width: 50rem;
+    }
+    &.bg_5{
+      right: 22rem;
+      top: 24rem;
+    }
+    &.bg_6{
+      right: 0;
+      left: 0;
+      top: 26rem;
+      width: 100%;
+    }
+    &.bg_7{
+      right: 0;
+      left: 0;
+      top: 30rem;
+      width: 100%;
+      // z-index: 1;
+    }
+     &.bg_8{
+      bottom: -8rem;
+      width: 100%;
+      z-index: 1;
+    }
+    &.bg_9{
+      width: 100%;
+      top: 36rem;
+      // z-index: 1;
+    }
+    &.bg_10{
+      bottom: -10rem;
+      z-index: 0;
+    }
+    &.bg_11{
+      bottom: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+}

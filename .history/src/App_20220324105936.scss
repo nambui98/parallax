@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.banner{
+  background: linear-gradient(181.12deg, #6D4869 -4.47%, #906074 5.09%, #D58480 18.15%, #ECA58B 34.03%, #F8C995 69.69%);
+  height: 100vh;
+  position: relative;
+  h3{
+    position: absolute;
+    top: 20rem;
+  }
+}

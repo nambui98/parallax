@@ -1,0 +1,10 @@
+/* Vector 49 */
+
+position: absolute;
+visibility: hidden;
+width: 1340px;
+height: 580px;
+left: 238px;
+top: 779px;
+
+background: linear-gradient(186.98deg, #A76E7C 0.29%, #2C245A 44.57%);

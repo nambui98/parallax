@@ -56,7 +56,7 @@ function App() {
       bg_7Ref.current.style.transform = `scale(${1 + value * 0.0005})`
       bg_6Ref.current.style.transform = `scale(${1 + value * 0.0005})`
       bg_5Ref.current.style.transform = `scale(${1 + value * 0.0005})`
-      bg_4Ref.current.style.transform = `translateX(-50%) scale(${1 + value * 0.0005})`
+      bg_4Ref.current.style.transform = `translateX(-50%) translateY(${value * 0.4}px) scale(${1 + value * 0.0005})`
       bg_3Ref.current.style.transform = `scale(${1 + value * 0.0005})`
       bg_2Ref.current.style.transform = `scale(${1 + value * 0.0005})`
       bg_1Ref.current.style.transform = `scale(${1 + value * 0.0005})`
